@@ -26,11 +26,9 @@ function create() {
             console.error('something went wrong')
         } else {
             var oldData = JSON.parse(data)
-
             var age = parseInt(process.argv[3])
             var kind = process.argv[4]
             var name = process.argv[5]
-
             var newItem = {};
             newItem.age = age;
             newItem.kind = kind;
