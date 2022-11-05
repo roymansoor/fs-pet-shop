@@ -1,7 +1,11 @@
 
+DROP TABLE IF EXISTS pets;
+CREATE TABLE pets(
+    id serial,
+    name varchar,
+    kind varchar,
+    age int
+);
 
 
 
-
-
-{"age":7,"kind":"rainbow","name":"fido"}
