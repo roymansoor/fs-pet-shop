@@ -1,7 +1,7 @@
 POST http://127.0.0.1:3005/api/pets
 Content-Type: application/json
 
-{"name": "Cornflake", "kind": "parakeet", "age": 3}
+{"name": "Jimi", "kind": "fox", "age": 3}
 
 
 ###
