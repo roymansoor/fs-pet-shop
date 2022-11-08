@@ -1,8 +1,23 @@
-POST http://127.0.0.1:3005/api/pets
+
+### Create new pet
+POST http://127.0.0.1:3005/pet/create
 Content-Type: application/json
 
-{"name": "Jimi", "kind": "fox", "age": 3}
+{"name": "bobo" , "kind":"ka"  , "age": 34 }
 
 
-###
+### Get all pets
 GET http://127.0.0.1:3005/pets
+
+### Get a pet with id 
+GET http://127.0.0.1:3005/pets/5
+
+### Update pet name 
+PATCH http://127.0.0.1:3005/pet/update/4
+Content-Type: application/json
+
+{"name": "AMBUM" , "kind": "donkey", "age": 100}
+
+### Delete pet 
+
+DELETE http://127.0.0.1:3005/pet/delete/1
